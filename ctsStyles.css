@@ -1,0 +1,283 @@
+    .CTSbody{
+    margin-left: 5%; margin-right: 5%;
+    }
+    @media only screen and (max-width: 980px){
+    .CTSbody + .product-container{
+        max-width: calc(100% - 2rem);
+    }
+    .CTSbody{
+        margin-left: 0%; margin-right: 0%;
+    }
+    }
+  .wrapper{
+    padding:2rem 0 2rem 0;
+  }
+  .wrapper .inner{
+    width:100% !important;
+  }
+  .wrapper .inner h1, .wrapper .inner h2{
+    text-transform:none !important;
+  }
+      body {
+          margin: 0;
+          background: #f8f9fb;
+          color: #102238;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      main {
+          max-width: 1536px;
+          margin: auto;
+          background: linear-gradient(135deg, #fff 0%, #fbfcfd 100%);
+          padding: 42px;
+      }
+      .hero {
+          min-height: 338px;
+          max-height:360px;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          background: white;
+          border-radius: 8px;
+          overflow: hidden;
+          box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+      }
+      .hero-copy {
+          padding: 34px 36px 25px;
+          position: relative;
+      }
+      .eyebrow {
+          font-size: 12px;
+          letter-spacing: 5px;
+          color: #506078;
+          margin-bottom: 22px;
+      }
+      .eyebrow span {
+          display: inline-block;
+          width: 45px;
+          height: 4px;
+          background: #d2162b;
+          vertical-align: middle;
+          margin-right: 22px;
+          border-radius: 3px;
+      }
+      h1 {
+          font-size: 46px;
+          line-height: 1;
+          letter-spacing: 1px;
+          margin: 0 0 17px;
+          font-weight: 800;
+      }
+      h1 strong {
+          color: #d2162b;
+      }
+      .hero-copy > p {
+          font-size: 16px;
+          line-height: 1.55;
+          color: #334155;
+          max-width: 690px;
+          margin: 0;
+      }
+      .hero-image {
+          position: relative;
+          overflow: hidden;
+      }
+      .hero-image:before {
+          content: "";
+          position: absolute;
+          z-index: 2;
+          left: -55px;
+          top: -50px;
+          width: 100px;
+          height: 450px;
+          background: linear-gradient(90deg, #9f001b, #e31837);
+          transform: skew(-25deg);
+          opacity: 0.95;
+      }
+      .hero-image img {
+          width: 100%;
+          height: 100%;
+          /*object-fit: cover;*/
+          display: block;
+      }
+      .benefits {
+          display: flex;
+          gap: 46px;
+          margin-top: 28px;
+      }
+      .benefits div {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          font-size: 14px;
+          line-height: 1.35;
+      }
+      .benefits img {
+          width: 44px;
+          height: 44px;
+          object-fit: cover;
+          border-radius: 50%;
+      }
+      .course-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 14px;
+          margin-top: 22px;
+      }
+      .card {
+          min-height: 250px;
+          background: #fff;
+          border: 1px solid #e6e9ed;
+          border-radius: 9px;
+          box-shadow: 0 6px 20px rgba(15, 34, 56, 0.09);
+          display: grid;
+          grid-template-columns: 220px 1fr;
+          padding: 20px;
+          gap: 22px;
+      }
+      .art {
+          border-radius: 22px;
+          overflow: hidden;
+          min-height: 210px;
+      }
+      .art img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+      }
+      .card-copy {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+      }
+      .card h2 {
+          font-size: 25px;
+          margin: 6px 0 8px;
+      }
+      .card i {
+          display: block;
+          background: #d2162b;
+          width: 45px;
+          height: 3px;
+          border-radius: 2px;
+      }
+      .card p {
+          font-size: 15px;
+          line-height: 1.5;
+          color: #334155;
+          margin: 12px 0 14px;
+          flex: 1;
+      }
+      .card a {
+          min-width: 210px;
+          background: linear-gradient(90deg, #c90f27, #df122e);
+          color: white;
+          text-decoration: none;
+          font-weight: 700;
+          padding: 6px 28px;
+          border-radius: 7px;
+          text-align: center;
+          box-shadow: 0 3px 8px rgba(210, 22, 43, 0.18);
+      }
+      .card a span {
+          font-size: 22px;
+          margin-left: 20px;
+          vertical-align: -1px;
+      }
+      .footer-features {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          background: #fff;
+          margin-top: 22px;
+          padding: 18px 25px;
+          border: 1px solid #e6e9ed;
+          border-radius: 10px;
+          box-shadow: 0 6px 20px rgba(15, 34, 56, 0.09);
+      }
+      .footer-features div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 12px;
+          border-right: 1px solid #e7e9ed;
+          font-size: 15px;
+      }
+      .footer-features div:last-child {
+          border: 0;
+      }
+      .footer-features img {
+          width: 36px;
+          height: 36px;
+          object-fit: cover;
+          border-radius: 50%;
+      }
+      @media (max-width: 1050px) {
+          main {
+              padding: 22px;
+          }
+          .hero {
+              grid-template-columns: 1fr;
+          }
+          .hero-image {
+              height: 300px;
+          }
+              .hero-image img{
+          object-fit: fill;
+          }
+          .eyebrow span{
+            display:none;
+          }
+          .course-grid {
+              grid-template-columns: 1fr;
+          }
+          .footer-features {
+              grid-template-columns: 1fr 1fr;
+              gap: 18px;
+          }
+          .footer-features div {
+              border: 0;
+          }
+          .benefits {
+              flex-wrap: wrap;
+          }
+      }
+      @media (max-width: 650px) {
+          main {
+              padding: 12px;
+          }
+          .hero-copy {
+              padding: 26px 22px;
+          }
+          .hero-image img{
+          object-fit: fill;
+          }
+          .eyebrow span{
+            display:none;
+          }
+          
+          h1 {
+              font-size: 36px;
+          }
+          .hero-image {
+              height: 220px;
+          }
+          .benefits {
+              display: grid;
+              gap: 14px;
+          }
+          .card {
+              grid-template-columns: 1fr;
+              padding: 14px;
+          }
+          .art {
+              height: 190px;
+              min-height: auto;
+          }
+          .card a {
+              width: 100%;
+          }
+          .footer-features {
+              grid-template-columns: 1fr;
+          }
+          .footer-features div {
+              justify-content: flex-start;
+          }
+      }
